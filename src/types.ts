@@ -8,6 +8,11 @@ export type Product = {
   categoryName: string;
 };
 
+export type CartItemType = {
+  count: number;
+  product: Product;
+};
+
 /**
  * The response type of errors from /api/*.
  */
